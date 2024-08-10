@@ -1,12 +1,15 @@
 * {
-  margin: auto;
-  margin-top: 50px;
+  margin: 0px;
   padding: 0px;
-  background-color: #808080;
+
   color: rebeccapurple;
   text-align: center;
 }
 
+.container{
+  text-align: center;
+  margin: auto;
+}
 button {
   background-color: black;
   color: blanchedalmond;
