@@ -8,7 +8,7 @@ const Cards = ({ heading, subheading, discount, linkto }) => {
       onClick={() => {
         navigate(linkto);
       }}
-      className="bg-white h-[220px] w-[200px] p-4 rounded-xl hover:scale-105 cursor-pointer"
+      className="bg-white h-[220px] w-[200px] p-4 rounded-xl hover:scale-110 cursor-pointer"
     >
       <h2 className="font-bold text-lg">{heading}</h2>
       <h3 className="text-gray-500 font-bold">{subheading}</h3>

@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Outlets from "./Components/Outlets.jsx";
 import Random from "./Components/Random.jsx";
 import Example from "./Components/Example.jsx";
+import Instamart from './Components/Instamart.jsx'
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -13,6 +14,7 @@ createRoot(document.getElementById("root")).render(
       <Route path="/restaurants" element={<Outlets />} />
       <Route path="/random" element={<Random />} />
       <Route path="/example" element={<Example />} />
+      <Route path="/mart" element={<Instamart/>} />
     </Routes>
   </BrowserRouter>
 );
